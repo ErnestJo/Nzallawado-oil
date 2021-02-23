@@ -1,0 +1,231 @@
+@font-face{
+    src: url(../fonts/Kaushan.ttf);
+    font-family: logo;
+}
+#logotop{
+    font-family: logo!important;
+}
+#logobtm{
+    font-family: logo!important;
+}
+.space{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.space1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none!important;
+}
+  /*affects navigation */
+
+ /* Add a dark background color with a little bit see-through */
+.navbar {
+    border: 0;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: gold !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #0099bd !important;
+    background-color: transparent!important;
+}
+.navbar-nav li a.highlight {
+    color: gold !important;
+    background-color: transparent!important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+
+  /*affects navigation */
+
+ /* form effect */
+
+ .paper{
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #ddd;
+ }
+
+#motto{}
+#motto{
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(../../imgs/bg1.jpg);
+}
+#motto .translucent{
+    background-color: rgba(0,0,0,0.65);
+}
+#motto{}
+
+ #footer{}
+ #footer #logo-btm{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    object-fit: contain;
+ }
+ #footer h5{
+    color: #560D0D;
+    margin-bottom: 60px;
+ }
+ #footer{
+    padding-top: 60px;
+    padding-bottom: 30px;
+ }
+ #footer p{
+    margin: 0;
+    color: #888;
+ }
+ #footer p span{
+    color: #333;
+ }
+ #footer a.social{
+    color: #333;
+    font-size: 20px;
+    margin-left: 15px;
+    transition: linear 0.3s;
+ }
+ #footer a.social:hover{
+    color: #76A21E;
+    text-shadow: 0px 0px 1px #F3FF93;
+ }
+ #footer .media{
+    margin-bottom: 10px;
+ }
+ #footer .media-left p i{
+    color:#76A21E;
+    margin-right: 10px;
+ }
+ #footer .media-body{}
+ #footer .media{}
+ #footer input{
+    border:none;
+    color: #560D0D;
+    border-radius: 0;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #76A21E;
+ }
+ #footer input:focus{
+    box-shadow: none;       
+ }
+ #footer{}
+
+ #after-footer{}
+ #after-footer{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background: ghostwhite;
+ }
+ #after-footer{}
+
+
+ #loginModal{}
+ #loginModal .modal-body h5{
+    letter-spacing: 4px;
+ }
+ #loginModal .modal-body{
+    padding: 50px;
+ }
+ #loginModal img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+ }
+ #loginModal form, #createAccModal form{
+    margin-top: 30px;
+ }
+ #loginModal form input, #createAccModal form input{
+    border:none;
+    color: #560D0D;
+    box-shadow: none;
+    border-radius: 0;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #76A21E;
+ }
+ #loginModal form button{
+    margin-top: 50px;
+    border-radius: 0;
+    letter-spacing: 4px;
+ }
+ #loginModal{}
+
+ #createAccModal .modal-body{
+    padding: 30px;
+    padding-top: 50px!important;
+ }
+ #createAccModal form button{
+    margin-top: 20px;
+    border-radius: 0;
+    letter-spacing: 4px;
+ }
+
+
+#cartModal{}
+#cartModal .media{
+}
+#cartModal .media-left{}
+#cartModal .media-left img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+#cartModal .media-body{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+#cartModal .media-body h4 a{
+    font-size: medium;
+}
+#cartModal table{
+    box-shadow: 0px 0px 5px #ddd;
+}
+#cartModal table tr th{
+    color: #76A21E;
+}
+#cartModal table tr td{
+    vertical-align: middle;
+    border: none!important;
+}
+#cartModal table td select:focus{
+    border:1px solid #F3FF93;
+    box-shadow: 0px 0px 5px #F3FF93;
+}
+#cartModal .table-header, table{
+    border:1px solid #ccc;
+}
+#cartModal h4{
+    color: #C6CF65;
+    font-size: 30px;
+}
+#cartModal h4 small{
+    color: #aaa;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+#cartModal h1{}
