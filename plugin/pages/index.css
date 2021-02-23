@@ -1,0 +1,149 @@
+#lev3 h6,#lev4 h6,#lev5 h6,#lev6 h6,#lev7 h6{
+	color: #76A21E;
+}
+#lev3 h1,#lev4 h1,#lev5 h1,#lev6 h1,#lev7 h1{
+	color: #560D0D;
+	font-size: 50px;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+.space{
+	padding-top: 125px;
+	padding-bottom: 125px;
+}
+
+.space1{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#lev1{}
+#lev1 .col-md-12{
+	padding: 0;
+}
+#lev1 img{
+	width: 100%;
+	height: 80vh;
+	object-fit: cover;
+}
+
+#lev3{}
+#lev3 h1{
+	font-size: 60px;
+}
+#lev3 img{
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+}
+#lev3 .info{
+	padding-top: 50px;
+}
+#lev3 a:hover{
+	color: white;
+}
+#lev3{}
+
+#lev4{}
+#lev4{
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image: url(../../imgs/bg1.jpg);
+}
+#lev4 .translucent{
+	background-color: rgba(0,0,0,0.65);
+}
+#lev4 h1{
+	color: #F3FF93;
+}
+#lev4 h5{
+	color: #76A21E;
+}
+#lev4 p{
+	color: #fff;
+}
+#lev4{}
+
+#lev5{}
+#lev5 .nav-pills{
+	margin-top: 20px!important;
+	margin-bottom: 50px!important;
+}
+#lev5 .nav-pills .nav-link{
+	color: #aaa;
+	width: 100%;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	border-bottom: 3px solid #aaa;
+	background-color: transparent;
+}
+#lev5 .nav-pills .nav-link.active{
+	color: #76A21E;
+	border-bottom: 3px solid #76A21E;
+}
+#lev5 .card{
+	cursor: pointer;
+	margin-bottom: 30px;
+	background-color: #eee;
+	transition: linear 0.3s;
+}
+#lev5 .card:hover{
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #aaa;
+}
+#lev5 .card a h5{
+	color: #333;
+}
+#lev5 .card a p{
+	color: #76A21E;
+	font-weight: bold;
+}
+#lev5 .card{}
+#lev5{}
+
+#lev6{}
+#lev6 h1{
+	color: white;
+}
+#lev6{
+	color: white;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image: url(../../imgs/bg1.jpg);
+}
+#lev6 .translucent{
+	background-color: rgba(0,0,0,0.65);
+}
+#lev6 ol.carousel-indicators{
+	bottom: -50px;
+}
+#lev6 #carouselClientIndicators{
+	margin-top: 50px;
+}
+#lev6{}
+
+#lev7{}
+#lev7 #accordionExample{
+	width: 100%;
+}
+#lev7 #accordionExample button{
+	width: 100%;
+	color: #76A21E;
+	text-align: left;
+	font-weight: bolder;
+	text-decoration: none;
+}
+#lev7 #accordionExample .card-header{
+	border:none;
+	background-color: transparent!important;
+}
+#lev7 #accordionExample .card-body{
+	color: #999;
+}
+#lev7 #accordionExample{}
+#lev7 #accordionExample{}
+#lev7{}
+

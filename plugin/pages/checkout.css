@@ -1,0 +1,72 @@
+#lev1{}
+#lev1{
+	color: #fff;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image: url(../../imgs/bg1.jpg);
+}
+#lev1 .translucent{
+	background-color: rgba(0,0,0,0.65);
+}
+#lev1{}
+
+
+
+
+#lev2{}
+#lev2 label{
+    color: #560D0D;
+	font-size: 14px;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+#lev2 input:hover label{
+    color: #fff!important;
+}
+#lev2 input{
+	border:none;
+    color: #560D0D;
+    box-shadow: none;
+    border-radius: 0;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #76A21E;
+}
+#lev2{}
+
+
+#lev2 .media{}
+#lev2 .media-left{}
+#lev2 .media-left img{
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+}
+#lev2 .media-body{
+	padding-top: 10px;
+	margin-left: 10px;
+}
+#lev2 .media-body h4{
+	font-size: medium;
+}
+#lev2 table{
+	box-shadow: 0px 0px 3px #ddd;
+}
+#lev2 table tr th{
+	color: #76A21E;
+}
+#lev2 table tr td{
+	vertical-align: middle;
+	border: none!important;
+}
+#lev2 table td{
+}
+#lev2 table td select:focus{
+	border:1px solid #F3FF93;
+	box-shadow: 0px 0px 5px #F3FF93;
+}
+#lev2 .table-header, table{
+	border:1px solid #ccc;
+}
+
+#lev2{}

@@ -1,0 +1,18 @@
+
+#lev1{}
+#lev1 h1{
+	color: #560D0D;
+	margin-top: 0;
+	font-size: 100px;
+	font-weight: bold;
+}
+#lev1 h5,#lev1 h6{
+	color: #76A21E;
+	letter-spacing: 4px;
+}
+#lev1 p{
+	color: #888;
+	font-size: 15px;
+	margin-left: 20px;
+}
+#lev1{}
